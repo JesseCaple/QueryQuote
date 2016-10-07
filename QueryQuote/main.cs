@@ -58,7 +58,7 @@ namespace QueryQuote
                             char c = line[i];
                             if (!char.IsWhiteSpace(c))
                             {
-                                writer.WriteLine(line.Substring(0, i) + "\"" + line.Substring(i) + "\"");
+                                writer.WriteLine(line.Substring(0, i) + "\"" + line.Substring(i) + " \"");
                                 break;
                             }
                         }
